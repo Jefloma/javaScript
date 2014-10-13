@@ -8,10 +8,10 @@
 		$(document).on('ready',function(){
 			//métodos útiles: each
 			// recorrer una colección: 
-			// var col=['uno','dos','tres'];
-			// $.each(col, function(index,elem)
-			// { console.log(index+' '+ elem) 
-			//	});
+			 var col=['uno','dos','tres'];
+			 $.each(col, function(index,elem)
+			 { console.log(index+' '+ elem) 
+				});
 
 			// Localizar un elemento en una col $.inArray(valor,col)
 			// ese método devuelve el índice del elto o -1
@@ -29,9 +29,9 @@
 			//});
 
 			// Otro ejemplo de uso del método data
-			//$('ul li').each(function(index,elem) {
-			//	console.log($.data(elem,'posicion'));
-			//})
+			$('ul li').each(function(index,elem) {
+				console.log($.data(elem,'posicion'));
+			})
 		});
 	</script>
 </head>
